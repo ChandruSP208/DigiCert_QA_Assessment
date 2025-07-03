@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from utils.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger(__name__, 'ui_automation.log')
 
 class BasePage:
     def __init__(self, driver: WebDriver):

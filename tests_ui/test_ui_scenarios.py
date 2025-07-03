@@ -3,7 +3,7 @@ from pages.main_page import MainPage
 from pages.movie_details_page import MovieDetailsPage
 from utils.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger(__name__, 'ui_automation.log')
 
 def test_sort_by_title(driver):
     logger.info("Test: Sort movies by Title and assert last movie is 'The Phantom Menace'")

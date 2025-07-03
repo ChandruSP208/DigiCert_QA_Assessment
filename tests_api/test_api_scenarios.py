@@ -2,7 +2,7 @@ import pytest
 from utils.api_client import ApiClient
 from utils.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger(__name__, 'api_responses.log')
 
 @pytest.fixture(scope="module")
 def api_client():

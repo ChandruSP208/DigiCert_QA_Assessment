@@ -62,3 +62,6 @@ venv.bak/
 
 # Reports
 reports/
+
+# Logs
+logs/

@@ -1,4 +1,4 @@
-QA Engineer Technical Assessment 
+
 Assessment Task: 
 You are to evaluate a frontend application with specific functionalities related to the Star 
 Wars movies. The application can be found at the following GitHub repository: [Star 
